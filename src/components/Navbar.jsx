@@ -19,7 +19,7 @@ function Navbar() {
   };
 
   return (
-    <div className="w-full h-[88px] flex justify-between items-center px-2 py-4 bg-[#29335c] fixed text-white">
+    <div className="w-full h-[88px] flex justify-between items-center px-2 py-4 bg-[#252e53] fixed text-white">
       {/* Logo image */}
       <div>
         <img src={Logo} alt="logo" width={"70px"} className="rounded-full" />
