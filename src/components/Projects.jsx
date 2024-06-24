@@ -8,7 +8,7 @@ function Projects() {
   return (
     <div
       name="projects"
-      className="w-full md:h-screen text-gray-300 bg-[#0a192f] p-8"
+      className="w-full md:h-screen text-gray-300   bg-[#252e53] p-8"
     >
       <div className="max-w-[1000px] mx-auto flex flex-col p-4 justify-center w-full h-full">
         <div>
@@ -152,7 +152,7 @@ function Projects() {
 
           {/* Grid items */}
           <div
-            style={{ backgroundImage: `url(${memoryGame})` }}
+            style={{ backgroundImage: `url(${foodApp})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto  content-div"
           >
             {/* Hover effects */}
