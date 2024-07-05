@@ -2,12 +2,15 @@ import React from 'react';
 
 function Contact(){
     return(
-        <div name='contact' className='w-full h-screen flex bg-[#252e53] p-4 text-white justify-center items-center'>
-            <form method='POST' action="https://getform.io/f/pbygnrkb"  className='flex flex-col max-w-[600px] w-full text-black'>
+        <div name='contact' className='w-full h-screen flex bg-[#252e53] p-4 text-white justify-center items-center pt-[150px]'>
+            <form method='POST' action="https://getform.io/f/pbygnrkb"  className='flex flex-col max-w-[600px] w-full h-full text-black'>
                 <div className='pb-8'>
-                    <p className='text inline font-bold border-b-4 border-pink-600 text-gray-300'>
+                    {/* <p className='text inline font-bold border-b-4 border-pink-600 text-gray-300'>
                         Contact Me
-                    </p>
+                    </p> */}
+                     <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
+              Contact Me
+            </p>
                     <p className='py-4 text-gray-300'>Submit the form below or shoot me an email - musk@mail.com</p>
                 </div>
 
