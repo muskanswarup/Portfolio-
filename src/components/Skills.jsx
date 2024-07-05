@@ -10,11 +10,7 @@ import Node from "../assets/node.png";
 
 function Skills() {
   return (
-<<<<<<< HEAD
     <div name="skills" className="w-full h-screen bg-[#252e53] text-gray-300">
-=======
-    <div className="w-full bg-[#252e53] text-gray-300" name='skills'>
->>>>>>> 9a751b0d789cfb624cf95126da64f5130709933c
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
